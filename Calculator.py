@@ -11,7 +11,7 @@ def div(num1, num2):
 	return num1 / num2
 
 def main():
-	operation = input("Enter two numbers with function-'+', '-', '*', '/'- between them.")
+	operation = input("Enter function-'+', '-', '*', '/'-and press enter, then enter values for 'num1' and 'num2'.")
 	if(operation != "+" and operation != "-" and operation != "*" and operation != "/"):
 		#invalid operation
 		print("You must enter a valid operation")
